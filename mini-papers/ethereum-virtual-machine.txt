@@ -5,50 +5,50 @@ Date: 2025-09-24
 
 ---
 
-## SUMÁRIO
+## SUMMARY
 
-0. Resumo
-1. Definição
-2. Funcionamento e Propósito
-3. Características
-4. Limitações
-5. Expansão além da Ethereum
-6. Conclusão
+0. Abstract
+1. Definition
+2. Functioning and Purpose
+3. Characteristics
+4. Limitations
+5. Expansion Beyond Ethereum
+6. Conclusion
 
 ---
 
-## O que é a Ethereum Virtual Machine (EVM)?
+## What is the Ethereum Virtual Machine (EVM)?
 
-### Resumo
+### Abstract
 
-A Ethereum Virtual Machine (EVM) é o componente central do ecossistema Ethereum, responsável por interpretar e executar contratos inteligentes. Este trabalho apresenta uma visão geral de sua definição, funcionamento, características e limitações, além de destacar sua relevância no cenário de blockchains compatíveis.
+The Ethereum Virtual Machine (EVM) is the core component of the Ethereum ecosystem, responsible for interpreting and executing smart contracts. This paper provides an overview of its definition, functioning, characteristics, and limitations, while also highlighting its relevance in the broader context of EVM-compatible blockchains.
 
-### 1. Definição
+### 1. Definition
 
-A Ethereum Virtual Machine (EVM) é uma máquina virtual completa de Turing que funciona como núcleo computacional da rede Ethereum. Pode ser entendida como um “supercomputador descentralizado”, capaz de hospedar e executar aplicações de forma distribuída.
+The Ethereum Virtual Machine (EVM) is a Turing-complete virtual machine that serves as the computational core of the Ethereum network. It can be understood as a “decentralized supercomputer,” capable of hosting and executing applications in a distributed manner.
 
-### 2. Funcionamento e Propósito
+### 2. Functioning and Purpose
 
-A principal função da EVM é executar contratos inteligentes, que são programas autoexecutáveis que possibilitam transações complexas e a criação de aplicativos descentralizados (DApps).
+The primary role of the EVM is to execute smart contracts, which are self-executing programs enabling complex transactions and the creation of decentralized applications (DApps).
 
-Esses contratos são geralmente escritos em Solidity, compilados em bytecode e posteriormente interpretados pela EVM.
+These contracts are generally written in Solidity, compiled into bytecode, and then interpreted by the EVM.
 
-Esse processo é comparável ao funcionamento de linguagens de alto nível, como Python, que são transformadas em bytecode antes de serem executadas por uma máquina virtual.
+This process is comparable to how high-level programming languages like Python are transformed into bytecode before being executed by a virtual machine.
 
-### 3. Características
+### 3. Characteristics
 
-Um dos aspectos mais notáveis da EVM é o seu ambiente isolado, que protege os contratos de interferências externas, como sistemas de arquivos ou processos de rede. Isso garante execução contínua e segura.
+One of the most notable aspects of the EVM is its isolated environment, which shields contracts from external interference, such as file systems or network processes. This ensures continuous and secure execution.
 
-Pode-se pensar na EVM como um “V8 sandboxizado para bytecode Ethereum”, mas com regras próprias voltadas para descentralização e consenso.
+The EVM can be thought of as a “sandboxed V8 for Ethereum bytecode,” but with rules specifically designed for decentralization and consensus.
 
-### 4. Limitações
+### 4. Limitations
 
-Apesar de suas inovações, a EVM apresenta desafios, sendo o principal deles o custo de execução. As chamadas taxas de Gas podem variar conforme a complexidade do contrato e a demanda da rede, tornando os custos imprevisíveis e exigindo estratégias de precificação por parte dos desenvolvedores.
+Despite its innovations, the EVM faces challenges, the main one being execution costs. Gas fees may vary depending on the contract’s complexity and network demand, making costs unpredictable and requiring developers to adopt pricing strategies.
 
-### 5. Expansão além da Ethereum
+### 5. Expansion Beyond Ethereum
 
-Embora tenha surgido no contexto da Ethereum, a EVM extrapolou esse ecossistema. Diversas blockchains, como BNB Chain, Avalanche, Fantom e Polygon, adotaram compatibilidade com a EVM, criando um padrão de desenvolvimento amplamente utilizado no setor de contratos inteligentes.
+Although it originated within Ethereum, the EVM has expanded beyond this ecosystem. Several blockchains, such as BNB Chain, Avalanche, Fantom, and Polygon, have adopted EVM compatibility, establishing it as a widely used standard in the smart contract sector.
 
-### Conclusão
+### Conclusion
 
-A Ethereum Virtual Machine é um dos pilares da computação descentralizada moderna. Seu modelo de execução seguro e padronizado tornou-se referência para múltiplas redes blockchain, ainda que desafios como as taxas de Gas representem barreiras de escalabilidade e acessibilidade.
+The Ethereum Virtual Machine is one of the pillars of modern decentralized computing. Its secure and standardized execution model has become a reference point for multiple blockchain networks, even though challenges such as Gas fees remain significant barriers to scalability and accessibility.
