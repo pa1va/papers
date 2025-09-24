@@ -1,0 +1,54 @@
+# Ethereum Virtual Machine (EVM)
+
+Author: pa1va
+Date: 2025-09-24
+
+---
+
+## SUMÁRIO
+
+0. Resumo
+1. Definição
+2. Funcionamento e Propósito
+3. Características
+4. Limitações
+5. Expansão além da Ethereum
+6. Conclusão
+
+---
+
+## O que é a Ethereum Virtual Machine (EVM)?
+
+### Resumo
+
+A Ethereum Virtual Machine (EVM) é o componente central do ecossistema Ethereum, responsável por interpretar e executar contratos inteligentes. Este trabalho apresenta uma visão geral de sua definição, funcionamento, características e limitações, além de destacar sua relevância no cenário de blockchains compatíveis.
+
+### 1. Definição
+
+A Ethereum Virtual Machine (EVM) é uma máquina virtual completa de Turing que funciona como núcleo computacional da rede Ethereum. Pode ser entendida como um “supercomputador descentralizado”, capaz de hospedar e executar aplicações de forma distribuída.
+
+### 2. Funcionamento e Propósito
+
+A principal função da EVM é executar contratos inteligentes, que são programas autoexecutáveis que possibilitam transações complexas e a criação de aplicativos descentralizados (DApps).
+
+Esses contratos são geralmente escritos em Solidity, compilados em bytecode e posteriormente interpretados pela EVM.
+
+Esse processo é comparável ao funcionamento de linguagens de alto nível, como Python, que são transformadas em bytecode antes de serem executadas por uma máquina virtual.
+
+### 3. Características
+
+Um dos aspectos mais notáveis da EVM é o seu ambiente isolado, que protege os contratos de interferências externas, como sistemas de arquivos ou processos de rede. Isso garante execução contínua e segura.
+
+Pode-se pensar na EVM como um “V8 sandboxizado para bytecode Ethereum”, mas com regras próprias voltadas para descentralização e consenso.
+
+### 4. Limitações
+
+Apesar de suas inovações, a EVM apresenta desafios, sendo o principal deles o custo de execução. As chamadas taxas de Gas podem variar conforme a complexidade do contrato e a demanda da rede, tornando os custos imprevisíveis e exigindo estratégias de precificação por parte dos desenvolvedores.
+
+### 5. Expansão além da Ethereum
+
+Embora tenha surgido no contexto da Ethereum, a EVM extrapolou esse ecossistema. Diversas blockchains, como BNB Chain, Avalanche, Fantom e Polygon, adotaram compatibilidade com a EVM, criando um padrão de desenvolvimento amplamente utilizado no setor de contratos inteligentes.
+
+### Conclusão
+
+A Ethereum Virtual Machine é um dos pilares da computação descentralizada moderna. Seu modelo de execução seguro e padronizado tornou-se referência para múltiplas redes blockchain, ainda que desafios como as taxas de Gas representem barreiras de escalabilidade e acessibilidade.
